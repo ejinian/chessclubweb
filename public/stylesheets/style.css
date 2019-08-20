@@ -1,0 +1,376 @@
+*
+{
+    margin: 0 auto 0 auto;
+    text-align: left;
+}
+
+body
+{
+	margin-top: 0.5%;
+	text-align: center;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	font-size: 17px;
+	color: #000000;
+	background-color: #DADADA;
+    padding: 0;
+}
+
+#topNavigationTab
+{
+display: flex;
+height: auto;
+position: relative;
+width: 800px;
+background-color: #8C4219;
+margin-bottom: 0.5%;
+}
+
+.linkVisit
+{
+text-align: center;
+position: relative;
+font-size: 19px;
+width: 121px;
+height: 35px;
+line-height: 35px;
+font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+
+.linkVisit a
+{
+text-decoration:none;
+color: #fc6003;
+margin-bottom: 0;
+}
+
+.linkVisit a:hover
+{
+color:#000000;
+width:121px;
+height: 35px;
+line-height: 35px;
+}
+
+.linkVisit a:active
+{
+	color:#FFFFFF;
+	width:121px;
+	height: 35px;
+	line-height: 35px;
+}
+
+#primaryPic
+{
+clear:both;
+width:670px;
+height:345px;
+background-color:#8C4219;
+}
+
+#primaryPic .picture
+{
+position:relative;
+width:650px;
+height:325px;
+top:10px;
+background-image:url(/images/chessclubmainimagefake.jpg);
+background-size:cover;
+background-repeat:no-repeat;
+}
+
+#primaryPic .picture2
+{
+	clear:both;
+	width:200px;
+	height:295px;
+	position: fixed;
+	left: 1675px;
+	bottom: 569px;
+	background-image:url(/images/grant_emblem.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+#primaryPic .picture3
+{
+	clear:both;
+	width:280px;
+	height:330px;
+	position: fixed;
+	right: 1655px;
+	bottom: 556px;
+	background-image:url(/images/grantemblemchess.png);
+	background-size: cover;
+	background-repeat:no-repeat;
+}
+
+#tournamentPicture
+{
+    clear:both;
+}
+
+#tournamentPicture .tourPic
+{
+    background-image:url(/images/tourpic1.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    position:relative;
+    width:500px;
+    height:280px;
+    border: 3px solid #000000;
+    border-radius: 15px;
+    padding: 5px;
+    box-shadow: 0 0 20px 2px rgba(140, 66, 25, 1);
+}
+
+#tournamentPicture .tourPic2
+{
+    background-image:url(/images/tourpic2.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    position:relative;
+    width:500px;
+    height:280px;
+    border: 3px solid #000000;
+    border-radius: 15px;
+    padding: 5px;
+    box-shadow: 0 0 20px 2px rgba(140, 66, 25, 1);
+}
+
+#tournamentPicture .tourPic3
+{
+    background-image:url(/images/tourpic3.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    position:relative;
+    width:500px;
+    height:280px;
+    border: 3px solid #000000;
+    border-radius: 15px;
+    padding: 5px;
+    box-shadow: 0 0 20px 2px rgba(140, 66, 25, 1);
+}
+
+#trainingPicture
+{
+    clear:both;
+}
+
+#trainingPicture .trainingpic
+{
+    background-image:url(/images/trainingpic1.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    position:relative;
+    width:500px;
+    height:280px;
+    border: 3px solid #000000;
+    border-radius: 15px;
+    padding: 5px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 1);
+}
+
+#trainingPicture .trainingpic2
+{
+    background-image:url(/images/trainingpic2.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    position:relative;
+    width:500px;
+    height:280px;
+    border: 3px solid #000000;
+    border-radius: 15px;
+    padding: 5px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 1);
+}
+
+#trainingPicture .trainingpic3
+{
+    background-image:url(/images/trainingpic3.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    position:relative;
+    width:500px;
+    height:280px;
+    border: 3px solid #000000;
+    border-radius: 15px;
+    padding: 5px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 1);
+}
+
+#trainingPicture .trainingpic4
+{
+    background-image:url(/images/trainingpic4.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    position:relative;
+    width: 250px;
+    height: 300px;
+    border: 3px solid #000000;
+    border-radius: 15px;
+    padding: 5px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 1);
+}
+
+#trainingPicture .trainingpic5
+{
+    background-image:url(/images/trainingpic5.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    position:relative;
+    width: 500px;
+    height: 280px;
+    border: 3px solid #000000;
+    border-radius: 15px;
+    padding: 5px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 1);
+}
+
+#trainingPicture .trainingpic6
+{
+    background-image:url(/images/trainingpic6.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    position:relative;
+    width: 350px;
+    height: 350px;
+    border: 3px solid #000000;
+    border-radius: 15px;
+    padding: 5px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 1);
+}
+
+#trainingPicture .trainingpic7
+{
+    background-image:url(/images/trainingpic7.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    position:relative;
+    width: 500px;
+    height: 280px;
+    border: 3px solid #000000;
+    border-radius: 15px;
+    padding: 5px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 1);
+}
+
+#primaryPictureTitle
+{
+text-align:center;
+position:relative;
+font-size:35px;
+color:#fc6003;
+font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+
+#datepicker
+{
+    margin-right: 24%;
+    margin-left: 24%;
+    border: 3px solid #000000;
+    border-radius: 15px;
+    padding: 5px;
+    box-shadow: 0 0 20px 4px rgba(140, 66, 25, 1)
+}
+
+#datepicker .ui-datepicker
+{
+    background: #FFFFFF;
+    border: 1px solid #000;
+}
+
+#datepicker .ui-state-highlight
+{
+    border: 3px dotted #fc6003;
+}
+
+#secondaryPictureTitle
+{
+text-align:center;
+position:relative;
+top: 250px;
+font-size:20px;
+color:#fc6003;
+font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+
+.layer1
+{
+position:relative;
+width:670px;
+height:auto;
+padding-bottom: 1%;
+background-color:#8C4219;
+}
+
+.layer1 .layer2
+{
+position:inherit;
+width:650px;
+top: 15px;
+background-color:#F1ECE7;
+}
+
+h1
+{
+font-size:25px;
+margin-bottom:10px;
+padding-top:18px;
+margin-top:2%;
+color:#000000;
+text-align: center;
+}
+
+h2
+{
+    font-size:20px;
+    margin-bottom:10px;
+    padding-top:18px;
+    margin-top:2%;
+    color:#000000;
+    text-align: left;
+}
+h3
+{
+    font-size:16px;
+    font-style: italic;
+    margin-bottom:10px;
+    color:#808080;
+    text-align: center;
+    opacity: 0.4;
+}
+h4
+{
+    position: relative;
+    font-size: 13px;
+    text-align: center;
+    color:#000000;
+    top: 300px;
+
+}
+.layertext
+{
+font-size:16px;
+line-height :24px;
+margin-left: 2%;
+margin-right: 2%;
+}
+
+a
+{
+color:blue;
+}
+
+a:active
+{
+color: #fc6003;
+}
+a:visited
+{
+}
+
+
+
+
+
+
